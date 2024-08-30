@@ -1,0 +1,32 @@
+.usuario {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .user-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  input.form-control {
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+  }
+  
+  button.btn-send {
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #28a745; 
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button.btn-send:hover {
+    background-color: #5b9c69; 
+  }
+  
