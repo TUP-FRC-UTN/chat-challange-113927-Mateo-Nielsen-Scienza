@@ -1,0 +1,10 @@
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-md-6">
+      <app-sala #sala></app-sala>
+    </div>
+    <div class="col-md-6">
+      <app-usuario-chat (messageSent)="sala.handleMessage($event)"></app-usuario-chat>
+    </div>
+  </div>
+</div>

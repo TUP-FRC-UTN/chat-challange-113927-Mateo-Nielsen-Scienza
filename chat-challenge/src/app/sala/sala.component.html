@@ -1,0 +1,10 @@
+<div class="card p-4 sala">
+    <h2 class="mb-3">SALA</h2>
+    <h3 class="mb-3">Conversacion</h3>
+    <div class="chat-room">
+      <div *ngFor="let message of messages" class="message" [ngClass]="{'message-user1': message.user === 'User 1', 'message-user2': message.user === 'User 2'}">
+        <strong>{{ message.user }}:</strong> {{ message.text }}
+      </div>
+    </div>
+  </div>
+  

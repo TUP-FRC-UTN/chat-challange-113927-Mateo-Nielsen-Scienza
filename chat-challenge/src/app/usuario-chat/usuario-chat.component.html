@@ -1,0 +1,15 @@
+<div class="usuario">
+    <div class="form-group">
+      <div class="user-input">
+        <label for="">Usuario 1</label>
+        <input [(ngModel)]="user1Message" class="form-control" placeholder="User 1: Type a message" />
+        <button class="btn btn-send" (click)="sendMessage('User 1', user1Message)">Enviar</button>
+      </div>
+      <div class="user-input">
+        <label for="">Usuario 2</label>
+        <input [(ngModel)]="user2Message" class="form-control" placeholder="User 2: Type a message" />
+        <button class="btn btn-send" (click)="sendMessage('User 2', user2Message)">Enviar</button>
+      </div>
+    </div>
+  </div>
+  
